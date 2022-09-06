@@ -17,7 +17,7 @@
     {#if selected === true}
         <Icon {iconName} {iconText} {spin} color="--figma-color-icon-onbrand" />
     {:else if disabled == true}
-        <Icon {iconName} {iconText} {spin} color="--color-icon-disabled" />
+        <Icon {iconName} {iconText} {spin} color="--figma-color-icon-disabled" />
     {:else}
         <Icon {iconName} {iconText} {spin} color="--figma-color-icon" />
     {/if}
