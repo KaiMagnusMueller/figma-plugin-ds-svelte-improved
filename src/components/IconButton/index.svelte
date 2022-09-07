@@ -35,7 +35,9 @@
         border: 2px solid transparent;
     }
     div:hover {
-        background: var(--figma-color-bg-hover);
+        /* light/dark mode independent hover color */
+        /* used to display the hover state on lighter surfaces */
+        background: rgb(128 128 128 / 9%);
     }
     div:active,
     div:focus {
