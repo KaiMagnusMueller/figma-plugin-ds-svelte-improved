@@ -1,5 +1,7 @@
 # Figma Plugin DS Svelte
 
+This is a fork of [thomas-lowry/figma-plugin-ds-svelte](https://github.com/thomas-lowry/figma-plugin-ds-svelte) with improvements to a couple components and font loading.
+
 WORK IN PROGRESS—This is a Svelte version of the Figma Plugin DS specifically for use in creating Figma Plugins. I decided to create this because Svelte seems like a great lightweight approach well suited for creating Figma plugins, and also improves the developer experience when compared to my vanilla JS Figma Plugin DS due to simplified markup.
 
 You can also get started with [Figsvelte](https://github.com/thomas-lowry/figsvelte), a boilerplate for Figma plugins that already has this library setup as a dependency.
@@ -7,7 +9,7 @@ You can also get started with [Figsvelte](https://github.com/thomas-lowry/figsve
 ## Installation
 
 To install into your own Svelte project.
-`npm i -D figma-plugin-ds-svelte`
+`npm install -dev github:KaiMagnusMueller/figma-plugin-ds-svelte-improved`
 
 ## To use
 
