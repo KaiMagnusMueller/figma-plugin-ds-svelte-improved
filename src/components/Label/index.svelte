@@ -14,7 +14,7 @@
         letter-spacing: var(--font-letter-spacing-pos-xsmall);
         line-height: var(--line-height);
         color: var(--figma-color-text-secondary);
-        height: var(--size-medium);
+        min-height: var(--size-medium);
         width: 100%;
         display: flex;
         align-items: center;
