@@ -1,6 +1,4 @@
 <script>
-	import { onMount } from 'svelte';
-
 	export let variant = 'primary';
 	export let disabled = false;
 	export let destructive = false;
@@ -18,8 +16,7 @@
 	{disabled}
 	class:destructive
 	class:rounded
-	class="{variant} {className}"
->
+	class="{variant} {className}">
 	<slot />
 </button>
 
@@ -34,9 +31,9 @@
 		font-size: var(--font-size-xsmall);
 		font-weight: var(--font-weight-medium);
 		letter-spacing: var(--font-letter-spacing-neg-small);
-		line-height: var(--font-line-height);
-		height: var(--size-medium);
-		padding: 0 var(--size-xsmall) 0 var(--size-xsmall);
+		line-height: 1rem;
+		height: 2rem;
+		padding: 0 0.75rem;
 		text-decoration: none;
 		outline: none;
 		border: 2px solid transparent;
