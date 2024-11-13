@@ -1,6 +1,6 @@
 import svelte from 'rollup-plugin-svelte';
-import resolve from 'rollup-plugin-node-resolve';
-import commonjs from 'rollup-plugin-commonjs';
+import resolve from '@rollup/plugin-node-resolve';
+import commonjs from '@rollup/plugin-commonjs';
 import serve from 'rollup-plugin-serve';
 import livereload from 'rollup-plugin-livereload';
 import svg from 'rollup-plugin-svg';
@@ -30,6 +30,6 @@ export default {
         !production && livereload('public'),
     ],
     watch: {
-		clearScreen: false
-	}
+        clearScreen: false
+    }
 }

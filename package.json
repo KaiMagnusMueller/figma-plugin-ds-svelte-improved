@@ -1,22 +1,23 @@
 {
   "name": "figma-plugin-ds-svelte",
-  "version": "1.3.8",
+  "version": "2.0.0",
+  "type": "module",
   "description": "A collection of Svelte components that match the Figma UI for building plugins.",
   "svelte": "./src/index.js",
   "dependencies": {
     "svelte-click-outside": "^1.0.0"
   },
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.1",
+    "@rollup/plugin-node-resolve": "^15.3.0",
     "npm-run-all": "^4.1.5",
-    "rollup": "^1.32.1",
-    "rollup-plugin-commonjs": "^10.1.0",
-    "rollup-plugin-livereload": "^1.1.0",
-    "rollup-plugin-node-resolve": "^5.2.0",
-    "rollup-plugin-postcss": "^2.9.0",
-    "rollup-plugin-serve": "^1.0.1",
-    "rollup-plugin-svelte": "^5.1.1",
+    "rollup": "^4.26.0",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-serve": "^1.1.1",
+    "rollup-plugin-svelte": "^7.2.2",
     "rollup-plugin-svg": "^2.0.0",
-    "svelte": "^3.20.1"
+    "svelte": "^3.59.2"
   },
   "scripts": {
     "build": "rollup -c",
@@ -26,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thomas-lowry/figma-plugin-ds-svelte.git"
+    "url": "git+https://github.com/KaiMagnusMueller/figma-plugin-ds-svelte-improved.git"
   },
   "keywords": [
     "figma",
@@ -41,11 +42,11 @@
   "files": [
     "src"
   ],
-  "author": "Thomas Lowry",
+  "author": "Kai Magnus Müller",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/thomas-lowry/figma-plugin-ds-svelte/issues"
+    "url": "https://github.com/KaiMagnusMueller/figma-plugin-ds-svelte-improved/issues"
   },
-  "homepage": "https://github.com/thomas-lowry/figma-plugin-ds-svelte#readme",
+  "homepage": "https://github.com/KaiMagnusMueller/figma-plugin-ds-svelte-improved/blob/master/README.md",
   "main": "./src/index.js"
 }
