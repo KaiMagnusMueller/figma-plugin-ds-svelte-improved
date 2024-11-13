@@ -228,12 +228,13 @@
 	<section>
 		<h2>Icon</h2>
 		<h3>Icons and props</h3>
-		<caption class="mb-xsmall"
-			>You can import and pass an SVG string to the iconName prop, or you can display text
+		<p class="mb-xsmall">
+			You can import and pass an SVG string to the iconName prop, or you can display text
 			inside an icon by passing a string including a character to the iconText prop. You can
 			pass the name of any color from the Figma DS to the color prop (ex: color="red",
 			color="purple4"). Icons can also accept the spin prop. The IconButton, Input, and
-			OnboardingTip all make use of the Icon component and can accept its props.</caption>
+			OnboardingTip all make use of the Icon component and can accept its props.
+		</p>
 		<div class="flex row mb-xsmall">
 			<Icon iconName={IconVisible} color="black" />
 			<Icon iconName={IconVisible} color="black8" />
@@ -484,6 +485,7 @@
 <style>
 	.wrapper {
 		padding: 24px;
+		color: var(--figma-color-text);
 	}
 
 	h1 {
@@ -505,7 +507,7 @@
 		margin: 0 0 8px 0;
 	}
 
-	caption {
+	p {
 		font-size: 11px;
 		color: var(--black3);
 		display: block;
