@@ -1,3 +1,5 @@
+2025 Update: I've archived this repository since [FigmaKit](https://github.com/KaiMagnusMueller/figmakit-plugin-ui) is now my main library for Svelte Figma UI components. It is mostly a drop-in replacement, so switching should be pretty easy. 
+
 # Figma Plugin DS Svelte
 
 This is a fork of [thomas-lowry/figma-plugin-ds-svelte](https://github.com/thomas-lowry/figma-plugin-ds-svelte) with improvements to a couple components and font loading.
